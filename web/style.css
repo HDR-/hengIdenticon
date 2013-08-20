@@ -1,0 +1,100 @@
+/* 
+    Document   : style
+    Created on : Aug 18, 2013, 2:10:12 PM
+    Author     : hdr
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #eeeeee;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 100;
+}
+
+.mainheader {
+    color: #6dbdcc;
+    background-color: #cccccc;
+    font-size: 7em;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.5em;
+    color: #6dbdcc;
+    background-color: #ffff66;
+    text-align: center;
+}
+
+.operatingArea {
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #666666;
+}
+
+.explainText {
+    text-align: center;
+    color: #eeeeee;
+}
+
+.input {
+    float: left;
+    outline-color: #555555;
+}
+
+.output {
+    outline-color: #555555;
+    float: left;
+    position: relative;
+    left: 5%;
+    width: 35%;
+}
+
+.intro {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    clear: both;
+    background-color: #cccccc;
+    outline-color: #555555;
+}
+
+.pic {
+    float: left;
+    outline-color: #555555;
+    
+    background-color: #ffffff;
+}
+
+.introtext {
+    position: relative;
+    left: 20px;
+}
+
+@-webkit-keyframes bluePulse {
+  from { background-color: #6dbdcc; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #d3ebf0; -webkit-box-shadow: 0 0 18px #d3ebf0; }
+  to { background-color: #6dbdcc; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+.sendButton {
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;  
+}
+
